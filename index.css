@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photo-1709115794974-cb1455abb3f6.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.outer {
+    height: 400px;
+    width: 400px;
+    background-image: url(photo-1543164904-a81403d527a2.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 800;
+    box-shadow: 2px 25px 75px 30px rgba(0, 0, 0, 0.489),
+        inset 5px 5px 10px rgba(0, 0, 0, 0.595),
+        inset 5px 5px 20px rgba(0, 0, 0, 0.379),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.374);
+    border: 3px solid black;
+    margin-bottom: 50px;
+}
+
+.btn {
+    display: flex;
+}
+
+.start,
+.stop,
+.reset {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 25px 75px 30px rgba(0, 0, 0, 0.489),
+        inset 5px 5px 10px rgba(0, 0, 0, 0.595),
+        inset 5px 5px 20px rgba(0, 0, 0, 0.379),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.374);
+    font-size: 25px;
+    border: 3px solid black;
+    color: white;
+    margin: 20px;
+    background-color: rgb(19, 19, 15);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: aqua;
+    color: #000;
+}
